@@ -1,0 +1,140 @@
+.weatherBox {
+  border: solid 1px black;
+  max-width: 150px;
+  padding: 0 2px 0 2px;
+  margin: 5px;
+  background-image: linear-gradient(
+    117.6743483874859deg,
+    rgba(48, 245, 251, 1) 46.235739087301596%,
+    rgba(23, 142, 203, 1) 96.67708333333334%
+  );
+}
+.weatherBox__title {
+  font-size: 15px;
+  text-align: center;
+}
+.weatherBox__temperature {
+  text-align: center;
+  font-size: 25px;
+}
+.weatherBox__humidity {
+  text-align: center;
+  font-size: 12px;
+}
+
+.sprite {
+  background-image: url(../img/whetherIcon.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+}
+
+.sprite-01d {
+  width: 50px;
+  height: 50px;
+  background-position: -5px -5px;
+}
+
+.sprite-01n {
+  width: 50px;
+  height: 50px;
+  background-position: -65px -5px;
+}
+
+.sprite-02d {
+  width: 50px;
+  height: 50px;
+  background-position: -125px -5px;
+}
+
+.sprite-02n {
+  width: 50px;
+  height: 50px;
+  background-position: -185px -5px;
+}
+
+.sprite-03d {
+  width: 50px;
+  height: 50px;
+  background-position: -5px -65px;
+}
+
+.sprite-03n {
+  width: 50px;
+  height: 50px;
+  background-position: -65px -65px;
+}
+
+.sprite-04d {
+  width: 50px;
+  height: 50px;
+  background-position: -125px -65px;
+}
+
+.sprite-04n {
+  width: 50px;
+  height: 50px;
+  background-position: -185px -65px;
+}
+
+.sprite-09d {
+  width: 50px;
+  height: 50px;
+  background-position: -5px -125px;
+}
+
+.sprite-09n {
+  width: 50px;
+  height: 50px;
+  background-position: -65px -125px;
+}
+
+.sprite-10d {
+  width: 50px;
+  height: 50px;
+  background-position: -125px -125px;
+}
+
+.sprite-10n {
+  width: 50px;
+  height: 50px;
+  background-position: -185px -125px;
+}
+
+.sprite-11d {
+  width: 50px;
+  height: 50px;
+  background-position: -5px -185px;
+}
+
+.sprite-11n {
+  width: 50px;
+  height: 50px;
+  background-position: -65px -185px;
+}
+
+.sprite-13d {
+  width: 50px;
+  height: 50px;
+  background-position: -125px -185px;
+}
+
+.sprite-13n {
+  width: 50px;
+  height: 50px;
+  background-position: -185px -185px;
+}
+
+.sprite-50d {
+  width: 50px;
+  height: 50px;
+  background-position: -245px -5px;
+}
+
+.sprite-50n {
+  width: 50px;
+  height: 50px;
+  background-position: -245px -65px;
+}
